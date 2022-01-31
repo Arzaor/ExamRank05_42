@@ -22,8 +22,8 @@ Commande rechercher et remplacer dans VIM :
 
 A utiliser pour créer les fichiers suivants :
 
-- ATarget.{hpp, cpp} -> presque identique à ASpell.{hpp, cpp}
-- Dummy.{hpp, cpp} -> presque identitique à Fwoosh.{hpp, cpp}
+- ATarget.{hpp, cpp} -> **presque** identique à ASpell.{hpp, cpp}
+- Dummy.{hpp, cpp} -> **presque** identitique à Fwoosh.{hpp, cpp}
 - TargetGenerator.{hpp, cpp} -> identique avec SpellBook.{hpp, cpp}
 - Fireball.{hpp, cpp} & Polymorph.{hpp, cpp} -> identique avec Fwoosh.{hpp, cpp}
 - BrickWall.{hpp, cpp} -> identique avec Dummy.{hpp, cpp}
