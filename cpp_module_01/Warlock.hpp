@@ -1,13 +1,14 @@
 #pragma once
 
-# include <string>
-# include <iostream>
+# include "ASpell.hpp"
+# include <vector>
 
 class Warlock
 {
 	private:
 		std::string name;
 		std::string title;
+		std::vector<ASpell *> spells;
 
 		Warlock();
 		Warlock(const Warlock &);
@@ -21,4 +22,8 @@ class Warlock
 		const std::string	getTitle() const;
 		void				setTitle(const std::string &);
 		void				introduce() const;
+
+		void				learnSpell(ASpell *);
+		void				forgetSpell(const std::string &);
+		void				launchSpell(const std::string &, const ATarget &);
 };
